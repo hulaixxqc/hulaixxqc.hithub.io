@@ -9,7 +9,7 @@ module.exports = {
     output: {
         // publicPath: '/',
         filename: 'boundle.js',
-        path: path.join(__dirname, 'dist')
+        path: path.join(__dirname, 'build')
     },
     devServer: {
         hot: true,
